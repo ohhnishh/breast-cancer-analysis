@@ -33,6 +33,8 @@ These are patterns in this dataset, not medical conclusions.
     python3 sql_queries.py
     python3 charts.py
 
-## What I learned
-
-(Write 2-3 lines in your own words.)
+## What I learnedI learned 
+(how to check a dataset for missing values and duplicates and clean it
+with Pandas. I used SQL (GROUP BY, WHERE, AVG) in SQLite to compare benign and
+malignant tumours, and made charts with Matplotlib. The main pattern I found was
+that malignant tumours in this dataset are larger on average.)
