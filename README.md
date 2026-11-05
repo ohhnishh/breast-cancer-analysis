@@ -3,7 +3,7 @@
 Exploratory analysis of the Breast Cancer Wisconsin (Diagnostic) dataset
 (569 tumours, 30 measurements each, loaded from scikit-learn).
 
-Tools: Python (Pandas, Matplotlib), SQL (SQLite)
+Tools: Python (Pandas, Matplotlib), SQL , R
 
 ## What the scripts do
 
@@ -11,6 +11,7 @@ Tools: Python (Pandas, Matplotlib), SQL (SQLite)
 - `analysis.py` - checks for missing values and duplicates, cleans column names, compares tumours by diagnosis
 - `sql_queries.py` - loads the data into SQLite and runs 6 SQL queries
 - `charts.py` - makes 3 charts
+- 'analysis.R'- repeats the analysis in R: counts, averages by diagnosis and 2 plots
 
 ## Findings
 
@@ -37,4 +38,5 @@ These are patterns in this dataset, not medical conclusions.
 (how to check a dataset for missing values and duplicates and clean it
 with Pandas. I used SQL (GROUP BY, WHERE, AVG) in SQLite to compare benign and
 malignant tumours, and made charts with Matplotlib. The main pattern I found was
-that malignant tumours in this dataset are larger on average.)
+that malignant tumours in this dataset are larger on average.
+I repeated the analysis in R using aggregate() and base R plots, and saw how the same steps look in Python and in R.)
